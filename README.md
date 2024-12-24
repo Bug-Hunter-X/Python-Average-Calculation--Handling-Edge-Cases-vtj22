@@ -1,0 +1,3 @@
+# Python Average Calculation with Robust Error Handling
+
+This repository demonstrates a common coding error in Python: improper handling of edge cases when calculating the average of a list of numbers.  The initial code handles empty lists gracefully, returning 0.  However, it lacks robust handling for cases involving division by zero which can occur if the list contains only zeros or if the sum is zero.  The improved solution addresses this by adding explicit checks for such scenarios.
